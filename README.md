@@ -20,19 +20,19 @@ pip install -r requirements/base.txt
 # Run tests for tasks
 
 ```bash
-pytest tests/
+pytest src/tests/
 ```
 
 ## Run a particular task
 
 ```bash
-python tasks/task_1.py
+python src/tasks/task_1.py
 ```
 
 ## Run a particular test for a task
 
 ```bash
-pytest tests/test_task_1.py
+pytest src/tests/test_task_1.py
 ```
 
 ## Create a new branch for a task
