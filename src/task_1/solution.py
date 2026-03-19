@@ -86,7 +86,17 @@ pytest src/tests/test_task_1.py
 
 
 def main():
-    # TODO: Implement the main function
+    c = input("Enter your name: ")
+    b = int(input("Enter your number: "))
+    p =  float(input("Enter your price: "))
+
+    print("-"*40)
+    print(f"Hello, {c}! Welcome to the Cosmic Cafe!")
+    print(f"Portions ordered: {b}")
+    print(f"Price per portion: {p}")
+    print(f"Total: {round(b*p) }")
+    print("-"*40)
+
     pass
 
 
